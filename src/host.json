@@ -1,0 +1,24 @@
+{
+  "port":3000,
+  "name":"server0",
+  "children":
+  [
+    {
+      "name":"server1",
+      "url":"http://localhost:3001/",
+      "host":"localhost",
+      "port":3001,
+      "path":"/",
+      "user":null,
+      "pass":null
+    },
+    {
+      "name":"server2",
+      "url":"http://localhost:3002/",
+      "port":3002,
+      "path":"/",
+      "user":null,
+      "pass":null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[ {
+    "host": "localhost",
+    "name": "metabo-test",
+    "username": null,
+    "password": null,
+    "port": 27017
+  },
+  {
+    "host": "localhost",
+    "name": "metabo-test",
+    "username": null,
+    "password": null,
+    "port": 27117
+  },
+  {
+    "host": "localhost",
+    "name": "metabo-test",
+    "username": null,
+    "password": null,
+    "port": 27118
+  },
+  {
+    "host": "localhost",
+    "name": "metabo-test",
+    "username": null,
+    "password": null,
+    "port": 27119
+  }
+]
