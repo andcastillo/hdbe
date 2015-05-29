@@ -1,4 +1,4 @@
-# hdbe: Hierarchical database ensamble
+# hdbe: Hierarchical DataBase Ensamble
 hdbe is an application layer designed to ensamble independent databases in a hierarchical structure.
 The principle is very simple: Each server has a "local" funcionality associated to it. This funcionality is defined in te localtask.js file, and requires the implementation of the onInit, execute and catResponses methods.
 On the other side, each server has a set of children servers associated to it through a web service url. The server configuration is defined in the host.json file.
@@ -38,3 +38,6 @@ The host.json configuration for server A will be:
 }
 
 That is a webservice listening at port 3000 and having the webservice B as children. 
+
+In this case, all the POST and GET request arriving to http://localhost:3000/ will be executed by the server A, by using the logic defined in the localtask.execute() method, while a copy of the request is sent to the server B. Once that localtask.execute() and all the children servers returns an answer to the request, the results are concatenated in the localtask.catResponses method and returned one level up in the hierarchy. 
+
