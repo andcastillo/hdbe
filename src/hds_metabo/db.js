@@ -12,11 +12,21 @@ function initdb(params){
     }).then(console.log("Connected to mongoDB"));
 }
 
-
-
 function query(params){
+
     var query = params.query;
+    if((typeof query)=='string')
+        query = JSON.parse(query);
+
+    var properties = params.props;
+
+    if((typeof properties)=='string')
+        properties = JSON.parse(properties);
+
     switch(query.action){
+        case 'create':
+            return Entry.create(query.collection, query.data, {owner: properties.login.email}).save();
+            break;
         case 'findOne':
             var constrain = {};
             constrain[query.field]=query.value;
@@ -28,18 +38,16 @@ function query(params){
             constrain[query.field]=query.value;
             return Entry.find(query.collection, constrain
             ).exec();
-        break;
+            break;
         case 'save':
 
-        break;
+            break;
         case 'delete':
 
-        break;
+            break;
         default :
             return null;
     }
-
-
 }
 
 exports.hds = hds;

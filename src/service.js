@@ -11,15 +11,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 var localtask = require("./localtask");
-var host = require("./host1.json");
+var host = require("./host.json");
 
 /**
  * Manage the GET requests. Forward a GET to children servers
  */
 app.get('/', function (req, res) {
-    var query = querystring.stringify(req.query);
-    if(host.children&&host.children.length>0){
-        http.get(host.children[0].url+"?"+query, function(response) {
+    if(host.children&&host.children.length>0&&!(req.props&&(req.props.local||false))){
+        http.get(host.children[0].url+"?"+querystring.stringify(req), function(response) {
             // Continuously update stream with data
             var body = '';
             response.on('data', function(d) {
@@ -32,7 +31,7 @@ app.get('/', function (req, res) {
             });
 
         }).on('error', function(e) {
-            res.send(host.name+"="+query+" error "+ e.message);
+            res.send(host.name+"="+querystring.stringify(req.query)+" error "+ e.message);
         });
     }
     else{
@@ -46,7 +45,9 @@ app.get('/', function (req, res) {
  */
 app.post('/', function(req, res) {
     var post_data = querystring.stringify(req.body);
-    if(host.children&&host.children.length>0){
+    var props = JSON.parse(req.body.props);
+    if(host.children&&host.children.length>0&&!(props.local||false)){
+
         host.children[0].method='POST';
         host.children[0].headers= {
             "Content-Type": "application/x-www-form-urlencoded",
@@ -60,7 +61,7 @@ app.post('/', function(req, res) {
                 body += chunk;
             });
             response.on('end', function() {
-                var result = localtask.execute({"query":req.body,"host":host}).then(function(result){
+                var result = localtask.execute({"query":req.body.query,"props":req.body.props,"host":host}).then(function(result){
                     res.send(localtask.catResponses(result,body));
                 });
 
@@ -73,7 +74,7 @@ app.post('/', function(req, res) {
         post_req.end();
     }
     else{
-        var result = localtask.execute({"query":req.body,"host":host}).then(function(result){
+        var result = localtask.execute({"query":req.body.query,"props":req.body.props,"host":host}).then(function(result){
             res.send(result);
         });
     }
@@ -84,7 +85,7 @@ var server = app.listen(host.port, function () {
     var host = server.address().address;
     var port = server.address().port;
 
-    localtask.onInit(1);
+    localtask.onInit(0);
 
     console.log('App listening at http://%s:%s', host, port);
 
