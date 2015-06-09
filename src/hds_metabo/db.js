@@ -13,7 +13,7 @@ function initdb(params){
 }
 
 function query(params){
-
+    //console.log(params);
     var query = params.query;
     if((typeof query)=='string')
         query = JSON.parse(query);
@@ -25,19 +25,19 @@ function query(params){
 
     switch(query.action){
         case 'create':
-            return Entry.create(query.collection, query.data, {owner: properties.login.email}).save();
+            return Entry.create(query.kind, query.data, {owner: properties.login.email}).save();
             break;
         case 'findOne':
             var constrain = {};
             constrain[query.field]=query.value;
-            return Entry.findOne(query.collection, constrain
+            return Entry.findOne(query.kind, constrain
             ).exec();
         break;
         case 'find':
-            var constrain = {};
-            constrain[query.field]=query.value;
-            return Entry.find(query.collection, constrain
-            ).exec();
+            return find(query);
+            break;
+        case 'getChildren':
+            return getChildren(query);
             break;
         case 'save':
 
@@ -50,6 +50,26 @@ function query(params){
     }
 }
 
+function find(query){
+    var constrain = {};
+    if(query.value)
+        constrain[query.field]=query.value;
+    else{
+        if(query.values){
+            constrain[query.field]={'$in':query.values};
+        }
+
+    }
+    return Entry.find(query.kind, constrain).exec();
+}
+
+function getChildren(query){
+    return new Promise(function (resolve, reject) {
+        Entry.findOne(query.kind,{"_id":query._id}).exec().then(function (entry) {
+            resolve(entry.getChildren({ groupKind: true }));
+        },reject);
+    });
+}
 exports.hds = hds;
 exports.initdb = initdb;
 exports.query = query;
