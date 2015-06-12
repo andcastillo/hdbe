@@ -11,10 +11,13 @@ var onInit = function(parameters){
 
 var execute = function(parameters){
     return db.query(parameters);
-    //return parameters.host.name+"="+parameters.query
 }
 
-var catResponses = function(response1, response2){
+var catResponses = function(response1, response2, params){
+    //console.log(response1);
+    //console.log(response2);
+    params = params||{};
+    params.groupKind = params.groupKind || false;
     if(typeof response2 === 'string'){
         if(response2.length==0)
             response2 = null;
@@ -49,7 +52,25 @@ var catResponses = function(response1, response2){
             return response2;
         }
         else{
-            return [response1, response2];
+            if(params.groupKind==true){
+                var keys1 = Object.keys(response1);
+                var keys2 = Object.keys(response2);
+                for(var i=0;i<keys2.length;i++){
+                    if(response1[keys2[i]]){
+                        var entry = response2[keys2[i]];
+                        for(var j=0;j<entry.length;j++){
+                            response1[keys2[i]].push(response2[keys2[i]][j]);
+                        }
+                    }
+                    else{
+                        response1[keys2[i]] = response2[keys2[i]];
+                    }
+                }
+                return response1;
+            }
+            else{
+                return [response1, response2];
+            }
         }
     }
 }

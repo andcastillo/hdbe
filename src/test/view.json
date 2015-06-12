@@ -1,0 +1,2441 @@
+{
+  "version": "2.11.0",
+  "grid": {
+    "layers": {
+      "Default layer": {
+        "name": "Default layer"
+      },
+      "configs": {
+        "name": "configs"
+      }
+    },
+    "xWidth": 10,
+    "yHeight": 10
+  },
+  "modules": [
+    {
+      "url": "modules/types/edition/object_editor/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "editable": [
+                "view"
+              ],
+              "expanded": [
+                []
+              ],
+              "storeObject": [
+                []
+              ],
+              "displayValue": [
+                []
+              ],
+              "output": [
+                "new"
+              ],
+              "storedObject": [
+                "{\"login\":{\"email\":\"metabo@cheminfo.org\",\"sesionid\":\"A6889HGFHN1122333HJ\"},\"local\":true}"
+              ]
+            }
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 41.000001668930054,
+            "top": 24.000000762939454
+          },
+          "size": {
+            "width": 32.977777767181394,
+            "height": 21.977777767181397
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 1.0000000476837159,
+            "top": 40.00000076293945
+          },
+          "size": {
+            "width": 15.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "login info 4 local",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        }
+      },
+      "id": 1,
+      "vars_in": [
+        {}
+      ],
+      "actions_in": [
+        {}
+      ],
+      "vars_out": [
+        {
+          "event": "onObjectSend",
+          "rel": "output",
+          "jpath": [],
+          "name": "props"
+        },
+        {
+          "event": "onObjectChange",
+          "rel": "output",
+          "jpath": [],
+          "name": "props"
+        }
+      ],
+      "title": "login info 4 local",
+      "actions_out": [],
+      "zindex": 1
+    },
+    {
+      "url": "modules/types/edition/object_editor/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "editable": [
+                "view"
+              ],
+              "expanded": [
+                []
+              ],
+              "storeObject": [
+                []
+              ],
+              "displayValue": [
+                []
+              ],
+              "output": [
+                "new"
+              ],
+              "storedObject": [
+                "{\"action\":\"find\",\"kind\":\"project\"}"
+              ]
+            }
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 38.000001668930054,
+            "top": 19.000000762939454
+          },
+          "size": {
+            "width": 31.977777767181397,
+            "height": 38.977777767181394
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 1.0000000476837159,
+            "top": 19.000000762939454
+          },
+          "size": {
+            "width": 37.977777767181394,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Query",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 2,
+      "vars_in": [
+        {}
+      ],
+      "actions_in": [
+        {}
+      ],
+      "vars_out": [
+        {
+          "event": "onObjectChange",
+          "rel": "output",
+          "jpath": [],
+          "name": "query"
+        },
+        {
+          "event": "onObjectSend",
+          "rel": "output",
+          "jpath": [],
+          "name": "query"
+        }
+      ],
+      "title": "Query",
+      "actions_out": [],
+      "zindex": 1
+    },
+    {
+      "url": "modules/types/edition/object_editor/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "editable": [
+                "view"
+              ],
+              "expanded": [
+                []
+              ],
+              "storeObject": [
+                []
+              ],
+              "displayValue": [
+                []
+              ],
+              "output": [
+                "new"
+              ],
+              "storedObject": [
+                "{\"login\":{\"email\":\"metabo@cheminfo.org\",\"sesionid\":\"A6889HGFHN1122333HJ\"},\"local\":false}"
+              ]
+            }
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 0,
+            "top": 37.00000076293945
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 18.000000143051146,
+            "top": 40.00000076293945
+          },
+          "size": {
+            "width": 15.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "login 4 ensamble",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 3,
+      "vars_in": [
+        {}
+      ],
+      "actions_in": [
+        {}
+      ],
+      "vars_out": [
+        {
+          "event": "onObjectChange",
+          "rel": "output",
+          "jpath": [],
+          "name": "props2"
+        },
+        {
+          "event": "onObjectSend",
+          "rel": "output",
+          "jpath": [],
+          "name": "props2"
+        }
+      ],
+      "title": "login 4 ensamble",
+      "zindex": 1,
+      "actions_out": []
+    },
+    {
+      "url": "modules/types/server_interaction/webservice_search/",
+      "configuration": {
+        "sections": {
+          "postvariables": [
+            {
+              "sections": {},
+              "groups": {
+                "postvariables": [
+                  [
+                    {
+                      "name": "props",
+                      "destination": "data",
+                      "variable": "props2",
+                      "filter": "value"
+                    },
+                    {
+                      "name": "query",
+                      "destination": "data",
+                      "variable": "query",
+                      "filter": "value"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "groups": {
+          "group": [
+            {
+              "url": [
+                "http://localhost/hdbe3000/"
+              ],
+              "method": [
+                "POST"
+              ],
+              "dataType": [
+                "form"
+              ],
+              "showStatus": [
+                []
+              ],
+              "button": [
+                [
+                  "button"
+                ]
+              ],
+              "buttonlabel": [
+                null
+              ],
+              "buttonlabel_exec": [
+                null
+              ],
+              "onloadsearch": [
+                []
+              ],
+              "debounce": [
+                0
+              ],
+              "resultfilter": [
+                "return data;"
+              ],
+              "askConfirm": [
+                []
+              ],
+              "confirmText": [
+                "Are you sure?"
+              ]
+            }
+          ],
+          "headers": [
+            [
+              {}
+            ]
+          ],
+          "searchparams": [
+            [
+              {
+                "destination": "url",
+                "fieldtype": "text"
+              }
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 0,
+            "top": 57.000003814697266
+          },
+          "size": {
+            "width": 11.977777767181397,
+            "height": 7.977777767181396
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "Init query",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 43.000001668930054,
+            "top": 1
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Init query",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 4,
+      "vars_in": [
+        {
+          "rel": "vartrigger",
+          "name": "query"
+        },
+        {
+          "rel": "vartrigger",
+          "name": "props2"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "Init query",
+      "vars_out": [
+        {
+          "event": "onSearchReturn",
+          "rel": "results",
+          "jpath": [],
+          "name": "projects"
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/edition/slick_grid/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "toggle": [
+                null
+              ],
+              "colorjpath": [
+                []
+              ],
+              "slickCheck": [
+                [
+                  "enableCellNavigation",
+                  "rowNumbering",
+                  "forceFitColumns"
+                ]
+              ],
+              "slick.defaultColumnWidth": [
+                null
+              ],
+              "slick.rowHeight": [
+                null
+              ],
+              "slick.selectionModel": [
+                [
+                  "cell"
+                ]
+              ],
+              "filterRow": [
+                null
+              ]
+            }
+          ],
+          "cols": [
+            [
+              {
+                "name": "Project",
+                "jpath": [
+                  "name"
+                ],
+                "editor": "none",
+                "formatter": "typerenderer",
+                "selectable": [
+                  "yes"
+                ],
+                "resizable": [
+                  "yes"
+                ],
+                "sortable": [
+                  "yes"
+                ],
+                "focusable": [
+                  "yes"
+                ],
+                "defaultSortAsc": [
+                  "yes"
+                ]
+              }
+            ]
+          ],
+          "groupings": [
+            [
+              {}
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 15.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "User projects",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 40.000001668930054,
+            "top": 23.000000762939454
+          },
+          "size": {
+            "width": 23.977777767181397,
+            "height": 30.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Untitled",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 5,
+      "vars_in": [
+        {
+          "rel": "list",
+          "name": "projects"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "User projects",
+      "vars_out": [
+        {
+          "event": "onSelect",
+          "rel": "row",
+          "jpath": [],
+          "name": "project"
+        },
+        {
+          "event": "onSelect",
+          "rel": "row",
+          "jpath": [],
+          "filter": "getChildren",
+          "name": "projectQ"
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/edition/object_editor/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "editable": [
+                "tree"
+              ],
+              "expanded": [
+                []
+              ],
+              "storeObject": [
+                []
+              ],
+              "displayValue": [
+                []
+              ],
+              "output": [
+                "new"
+              ],
+              "storedObject": [
+                "{}"
+              ]
+            }
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 0,
+            "top": 21.000000762939454
+          },
+          "size": {
+            "width": 45.977777767181394,
+            "height": 34.977777767181394
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Project information",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 66.00000472068787,
+            "top": 1
+          },
+          "size": {
+            "width": 45.977777767181394,
+            "height": 29.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Untitled",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 6,
+      "vars_in": [
+        {
+          "rel": "value",
+          "name": "project"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "vars_out": [
+        {
+          "jpath": []
+        }
+      ],
+      "title": "Project information",
+      "actions_out": {}
+    },
+    {
+      "url": "modules/types/server_interaction/webservice_search/",
+      "configuration": {
+        "sections": {
+          "postvariables": [
+            {
+              "sections": {},
+              "groups": {
+                "postvariables": [
+                  [
+                    {
+                      "name": "query",
+                      "destination": "data",
+                      "variable": "projectQ",
+                      "filter": "value"
+                    },
+                    {
+                      "name": "props",
+                      "destination": "data",
+                      "variable": "props2",
+                      "filter": "value"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "groups": {
+          "group": [
+            {
+              "url": [
+                "http://localhost/hdbe3000/"
+              ],
+              "method": [
+                "POST"
+              ],
+              "dataType": [
+                "form"
+              ],
+              "showStatus": [
+                []
+              ],
+              "button": [
+                [
+                  "button"
+                ]
+              ],
+              "buttonlabel": [
+                null
+              ],
+              "buttonlabel_exec": [
+                null
+              ],
+              "onloadsearch": [
+                []
+              ],
+              "debounce": [
+                0
+              ],
+              "resultfilter": [
+                "return data;"
+              ],
+              "askConfirm": [
+                []
+              ],
+              "confirmText": [
+                "Are you sure?"
+              ]
+            }
+          ],
+          "headers": [
+            [
+              {}
+            ]
+          ],
+          "searchparams": [
+            [
+              {
+                "destination": "url",
+                "fieldtype": "text"
+              }
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 13.000001335144043,
+            "top": 57.000003814697266
+          },
+          "size": {
+            "width": 16.977777767181397,
+            "height": 7.977777767181396
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "Get project children",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 7,
+      "vars_in": [
+        {
+          "rel": "vartrigger",
+          "name": "projectQ"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "",
+      "vars_out": [
+        {
+          "event": "onSearchReturn",
+          "rel": "results",
+          "jpath": [],
+          "name": "patients"
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/edition/slick_grid/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "toggle": [
+                null
+              ],
+              "colorjpath": [
+                []
+              ],
+              "slickCheck": [
+                [
+                  "enableCellNavigation",
+                  "rowNumbering",
+                  "forceFitColumns",
+                  "filterColumns"
+                ]
+              ],
+              "slick.defaultColumnWidth": [
+                null
+              ],
+              "slick.rowHeight": [
+                null
+              ],
+              "slick.selectionModel": [
+                [
+                  "cell"
+                ]
+              ],
+              "filterRow": [
+                null
+              ]
+            }
+          ],
+          "cols": [
+            [
+              {
+                "jpath": [],
+                "editor": "none",
+                "formatter": "typerenderer",
+                "selectable": [
+                  "yes"
+                ],
+                "resizable": [
+                  "yes"
+                ],
+                "sortable": [
+                  "yes"
+                ],
+                "focusable": [
+                  "yes"
+                ],
+                "defaultSortAsc": [
+                  "yes"
+                ]
+              }
+            ]
+          ],
+          "groupings": [
+            [
+              {}
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 17.000000143051146,
+            "top": 0
+          },
+          "size": {
+            "width": 32.977777767181394,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Patients",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 114.00001082420349,
+            "top": 26.000000762939454
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 8,
+      "vars_in": [
+        {
+          "rel": "list",
+          "name": "patients"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "Patients",
+      "vars_out": [
+        {
+          "event": "onSelect",
+          "rel": "row",
+          "jpath": [],
+          "filter": "getPatientChildren",
+          "name": "patientChildrenQuery"
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/server_interaction/webservice_search/",
+      "configuration": {
+        "sections": {
+          "postvariables": [
+            {
+              "sections": {},
+              "groups": {
+                "postvariables": [
+                  [
+                    {
+                      "name": "query",
+                      "destination": "data",
+                      "variable": "patientChildrenQuery",
+                      "filter": "value"
+                    },
+                    {
+                      "name": "props",
+                      "destination": "data",
+                      "variable": "props2",
+                      "filter": "value"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "groups": {
+          "group": [
+            {
+              "url": [
+                "http://localhost/hdbe3000/"
+              ],
+              "method": [
+                "POST"
+              ],
+              "dataType": [
+                "form"
+              ],
+              "showStatus": [
+                []
+              ],
+              "button": [
+                [
+                  "button"
+                ]
+              ],
+              "buttonlabel": [
+                null
+              ],
+              "buttonlabel_exec": [
+                null
+              ],
+              "onloadsearch": [
+                []
+              ],
+              "debounce": [
+                0
+              ],
+              "resultfilter": [
+                "return data;"
+              ],
+              "askConfirm": [
+                []
+              ],
+              "confirmText": [
+                "Are you sure?"
+              ]
+            }
+          ],
+          "headers": [
+            [
+              {}
+            ]
+          ],
+          "searchparams": [
+            [
+              {
+                "destination": "url",
+                "fieldtype": "text"
+              }
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 31.00000133514404,
+            "top": 57.000003814697266
+          },
+          "size": {
+            "width": 16.977777767181397,
+            "height": 7.977777767181396
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "Get patient children",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 67.00000472068787,
+            "top": 33.00000076293945
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Get patient children",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 9,
+      "vars_in": [
+        {
+          "rel": "vartrigger",
+          "name": "patientChildrenQuery"
+        },
+        {
+          "rel": "vartrigger",
+          "name": "props2"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "Get patient children",
+      "vars_out": [
+        {
+          "event": "onSearchReturn",
+          "rel": "results",
+          "jpath": [
+            "clinic",
+            "0",
+            "controls"
+          ],
+          "name": "clinic"
+        },
+        {
+          "event": "onSearchReturn",
+          "rel": "results",
+          "jpath": [
+            "urine"
+          ],
+          "name": "samples"
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/edition/slick_grid/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "toggle": [
+                null
+              ],
+              "colorjpath": [
+                []
+              ],
+              "slickCheck": [
+                [
+                  "enableCellNavigation",
+                  "rowNumbering",
+                  "forceFitColumns"
+                ]
+              ],
+              "slick.defaultColumnWidth": [
+                null
+              ],
+              "slick.rowHeight": [
+                null
+              ],
+              "slick.selectionModel": [
+                [
+                  "cell"
+                ]
+              ],
+              "filterRow": [
+                null
+              ]
+            }
+          ],
+          "cols": [
+            [
+              {
+                "name": "name",
+                "jpath": [
+                  "name"
+                ],
+                "editor": "none",
+                "formatter": "typerenderer",
+                "selectable": [
+                  "yes"
+                ],
+                "resizable": [
+                  "yes"
+                ],
+                "sortable": [
+                  "yes"
+                ],
+                "focusable": [
+                  "yes"
+                ],
+                "defaultSortAsc": [
+                  "yes"
+                ]
+              },
+              {
+                "name": "value",
+                "jpath": [
+                  "stringValue"
+                ],
+                "editor": "none",
+                "formatter": "typerenderer",
+                "selectable": [
+                  "yes"
+                ],
+                "resizable": [
+                  "yes"
+                ],
+                "sortable": [
+                  "yes"
+                ],
+                "focusable": [
+                  "yes"
+                ],
+                "defaultSortAsc": [
+                  "yes"
+                ]
+              }
+            ]
+          ],
+          "groupings": [
+            [
+              {}
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 51.00000472068787,
+            "top": 0
+          },
+          "size": {
+            "width": 30.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Clinic",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 90.00000472068787,
+            "top": 54.000003814697266
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 10,
+      "vars_in": [
+        {
+          "rel": "list",
+          "name": "clinic"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "Clinic",
+      "vars_out": [
+        {
+          "jpath": []
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/edition/slick_grid/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "toggle": [
+                null
+              ],
+              "colorjpath": [
+                []
+              ],
+              "slickCheck": [
+                [
+                  "enableCellNavigation",
+                  "rowNumbering",
+                  "forceFitColumns"
+                ]
+              ],
+              "slick.defaultColumnWidth": [
+                null
+              ],
+              "slick.rowHeight": [
+                null
+              ],
+              "slick.selectionModel": [
+                [
+                  "cell"
+                ]
+              ],
+              "filterRow": [
+                null
+              ]
+            }
+          ],
+          "cols": [
+            [
+              {
+                "name": "info",
+                "jpath": [
+                  "info"
+                ],
+                "editor": "none",
+                "formatter": "typerenderer",
+                "width": "20",
+                "selectable": [
+                  "yes"
+                ],
+                "resizable": [
+                  "yes"
+                ],
+                "sortable": [
+                  "yes"
+                ],
+                "focusable": [
+                  "yes"
+                ],
+                "defaultSortAsc": [
+                  "yes"
+                ]
+              },
+              {
+                "name": "date",
+                "jpath": [
+                  "date"
+                ],
+                "editor": "none",
+                "formatter": "typerenderer",
+                "width": "80",
+                "selectable": [
+                  "yes"
+                ],
+                "resizable": [
+                  "yes"
+                ],
+                "sortable": [
+                  "yes"
+                ],
+                "focusable": [
+                  "yes"
+                ],
+                "defaultSortAsc": [
+                  "yes"
+                ]
+              }
+            ]
+          ],
+          "groupings": [
+            [
+              {}
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 47.000001668930054,
+            "top": 21.000000762939454
+          },
+          "size": {
+            "width": 25.977777767181397,
+            "height": 34.977777767181394
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Samples",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 69.00000472068787,
+            "top": 54.000003814697266
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 11,
+      "vars_in": [
+        {
+          "rel": "list",
+          "name": "samples"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "Samples",
+      "vars_out": [
+        {
+          "event": "onSelect",
+          "rel": "row",
+          "jpath": [],
+          "filter": "getUrineChildren",
+          "name": "sampleChildrenQuery"
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/server_interaction/webservice_search/",
+      "configuration": {
+        "sections": {
+          "postvariables": [
+            {
+              "sections": {},
+              "groups": {
+                "postvariables": [
+                  [
+                    {
+                      "name": "query",
+                      "destination": "data",
+                      "variable": "sampleChildrenQuery",
+                      "filter": "value"
+                    },
+                    {
+                      "name": "props",
+                      "destination": "data",
+                      "variable": "props2",
+                      "filter": "value"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "groups": {
+          "group": [
+            {
+              "url": [
+                "http://localhost/hdbe3000/"
+              ],
+              "method": [
+                "POST"
+              ],
+              "dataType": [
+                "form"
+              ],
+              "showStatus": [
+                []
+              ],
+              "button": [
+                [
+                  "button"
+                ]
+              ],
+              "buttonlabel": [
+                null
+              ],
+              "buttonlabel_exec": [
+                null
+              ],
+              "onloadsearch": [
+                []
+              ],
+              "debounce": [
+                0
+              ],
+              "resultfilter": [
+                "return data;"
+              ],
+              "askConfirm": [
+                []
+              ],
+              "confirmText": [
+                "Are you sure?"
+              ]
+            }
+          ],
+          "headers": [
+            [
+              {}
+            ]
+          ],
+          "searchparams": [
+            [
+              {
+                "destination": "url",
+                "fieldtype": "text"
+              }
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 49.00000133514404,
+            "top": 57.000003814697266
+          },
+          "size": {
+            "width": 16.977777767181397,
+            "height": 7.977777767181396
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "Get urine children",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 19.000000143051146,
+            "top": 56.000003814697266
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Get urine children",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 12,
+      "vars_in": [
+        {
+          "rel": "vartrigger",
+          "name": "sampleChildrenQuery"
+        },
+        {
+          "rel": "vartrigger",
+          "name": "props2"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "Get urine children",
+      "vars_out": [
+        {
+          "event": "onSearchReturn",
+          "rel": "results",
+          "jpath": [
+            "nmr"
+          ],
+          "name": "nmrs"
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/edition/slick_grid/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "toggle": [
+                null
+              ],
+              "colorjpath": [
+                []
+              ],
+              "slickCheck": [
+                [
+                  "enableCellNavigation",
+                  "rowNumbering",
+                  "forceFitColumns"
+                ]
+              ],
+              "slick.defaultColumnWidth": [
+                null
+              ],
+              "slick.rowHeight": [
+                null
+              ],
+              "slick.selectionModel": [
+                [
+                  "cell"
+                ]
+              ],
+              "filterRow": [
+                null
+              ]
+            }
+          ],
+          "cols": [
+            [
+              {
+                "jpath": [],
+                "editor": "none",
+                "formatter": "typerenderer",
+                "selectable": [
+                  "yes"
+                ],
+                "resizable": [
+                  "yes"
+                ],
+                "sortable": [
+                  "yes"
+                ],
+                "focusable": [
+                  "yes"
+                ],
+                "defaultSortAsc": [
+                  "yes"
+                ]
+              }
+            ]
+          ],
+          "groupings": [
+            [
+              {}
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 83.00000472068787,
+            "top": 0
+          },
+          "size": {
+            "width": 33.977777767181394,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "NMR samples",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 114.00001082420349,
+            "top": 4
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 13,
+      "vars_in": [
+        {
+          "rel": "list",
+          "name": "nmrs"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "NMR samples",
+      "vars_out": [
+        {
+          "event": "onSelect",
+          "rel": "row",
+          "jpath": [
+            "zpectrum"
+          ],
+          "filter": "getFile",
+          "name": "zpectrum"
+        },
+        {
+          "event": "onSelect",
+          "rel": "row",
+          "jpath": [
+            "spectrum"
+          ],
+          "filter": "getFile",
+          "name": "spectrum"
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/server_interaction/webservice_search/",
+      "configuration": {
+        "sections": {
+          "postvariables": [
+            {
+              "sections": {},
+              "groups": {
+                "postvariables": [
+                  [
+                    {
+                      "name": "props",
+                      "destination": "data",
+                      "variable": "props2",
+                      "filter": "value"
+                    },
+                    {
+                      "name": "query",
+                      "destination": "data",
+                      "variable": "zpectrum",
+                      "filter": "value"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "groups": {
+          "group": [
+            {
+              "url": [
+                "http://localhost/hdbe3000/"
+              ],
+              "method": [
+                "POST"
+              ],
+              "dataType": [
+                "form"
+              ],
+              "showStatus": [
+                []
+              ],
+              "button": [
+                [
+                  "button"
+                ]
+              ],
+              "buttonlabel": [
+                null
+              ],
+              "buttonlabel_exec": [
+                null
+              ],
+              "onloadsearch": [
+                []
+              ],
+              "debounce": [
+                0
+              ],
+              "resultfilter": [
+                "return data;"
+              ],
+              "askConfirm": [
+                []
+              ],
+              "confirmText": [
+                "Are you sure?"
+              ]
+            }
+          ],
+          "headers": [
+            [
+              {}
+            ]
+          ],
+          "searchparams": [
+            [
+              {
+                "destination": "url",
+                "fieldtype": "text"
+              }
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 67.00000133514405,
+            "top": 57.000003814697266
+          },
+          "size": {
+            "width": 17.977777767181397,
+            "height": 7.977777767181396
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "getFile query",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 46.000001668930054,
+            "top": 56.000003814697266
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 14,
+      "vars_in": [
+        {
+          "rel": "vartrigger",
+          "name": "zpectrum"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "",
+      "vars_out": [
+        {
+          "event": "onSearchReturn",
+          "rel": "results",
+          "jpath": [],
+          "name": "zjcamp"
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/science/spectra/spectra_displayer/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "graphurl": [
+                ""
+              ],
+              "flip": [
+                [
+                  "flipX"
+                ]
+              ],
+              "displayAxis": [
+                [
+                  "x"
+                ]
+              ],
+              "grids": [
+                []
+              ],
+              "xLabel": [
+                ""
+              ],
+              "yTopSpacing": [
+                0
+              ],
+              "yBottomSpacing": [
+                0
+              ],
+              "xLeftSpacing": [
+                0
+              ],
+              "xRightSpacing": [
+                0
+              ],
+              "yLabel": [
+                ""
+              ],
+              "minX": [
+                "0"
+              ],
+              "maxX": [
+                "11"
+              ],
+              "minY": [
+                ""
+              ],
+              "maxY": [
+                ""
+              ],
+              "zoom": [
+                "x"
+              ],
+              "shiftxtozero": [
+                []
+              ],
+              "xaxismodification": [
+                []
+              ],
+              "wheelAction": [
+                "zoomY"
+              ],
+              "wheelbaseline": [
+                0
+              ],
+              "fullOut": [
+                "both"
+              ],
+              "FitYToAxisOnFromTo": [
+                []
+              ],
+              "legend": [
+                null
+              ]
+            }
+          ],
+          "plotinfos": [
+            [
+              {
+                "variable": "zjcamp",
+                "plotcolor": [
+                  255,
+                  0,
+                  11,
+                  1
+                ],
+                "strokewidth": "1",
+                "plotcontinuous": [
+                  "continuous"
+                ],
+                "peakpicking": [],
+                "markers": [],
+                "normalize": "max1min0",
+                "optimizeSlots": [],
+                "degrade": 0,
+                "monotoneous": []
+              }
+            ]
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 74.00000472068787,
+            "top": 21.000000762939454
+          },
+          "size": {
+            "width": 66.9777777671814,
+            "height": 34.977777767181394
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "jcamp",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 114.00001082420349,
+            "top": 47.00000076293945
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 15,
+      "vars_in": [
+        {
+          "rel": "jcamp",
+          "name": "zjcamp"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "title": "jcamp",
+      "vars_out": [
+        {
+          "jpath": []
+        }
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ]
+    },
+    {
+      "url": "modules/types/edition/object_editor/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "editable": [
+                "view"
+              ],
+              "expanded": [
+                []
+              ],
+              "storeObject": [
+                []
+              ],
+              "displayValue": [
+                []
+              ],
+              "output": [
+                "new"
+              ],
+              "storedObject": [
+                "{}"
+              ]
+            }
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 46.000001668930054,
+            "top": 57.000003814697266
+          },
+          "size": {
+            "width": 44.977777767181394,
+            "height": 16.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "Untitled",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Default layer"
+        },
+        "configs": {
+          "position": {
+            "left": 22.000001668930054,
+            "top": 0
+          },
+          "size": {
+            "width": 19.977777767181397,
+            "height": 19.977777767181397
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "configs"
+        }
+      },
+      "id": 16,
+      "vars_in": [
+        {
+          "rel": "value",
+          "name": "clinic"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "vars_out": [
+        {
+          "jpath": []
+        }
+      ],
+      "title": "Untitled",
+      "actions_out": {}
+    }
+  ],
+  "variables": [
+    {
+      "jpath": [
+        ""
+      ]
+    }
+  ],
+  "aliases": [
+    {}
+  ],
+  "pouchvariables": [
+    {}
+  ],
+  "configuration": {
+    "title": "Navigation"
+  },
+  "actionscripts": [
+    {
+      "sections": {},
+      "groups": {
+        "action": [
+          {
+            "name": [
+              null
+            ],
+            "script": [
+              null
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "couch_replication": [
+    {
+      "sections": {},
+      "groups": {
+        "couch": [
+          [
+            {
+              "direction": "both",
+              "continuous": []
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "init_script": [
+    {
+      "sections": {},
+      "groups": {
+        "general": [
+          {
+            "script": [
+              "\n\n//set(\"props\",props);"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "custom_filters": [
+    {
+      "sections": {
+        "filters": [
+          {
+            "sections": {},
+            "groups": {
+              "filter": [
+                {
+                  "name": [
+                    "createQuery"
+                  ],
+                  "script": [
+                    "return {\n    filter: function( value, resolve, reject ) {\n        var data = value.get();\n        data.keywords = JSON.parse(\"[\"+data.keywords+\"]\");\n        var query ={action:\"create\",kind:\"project\",\"data\":data};\n        resolve(query);\n    }\n};"
+                  ]
+                }
+              ],
+              "libs": [
+                [
+                  {}
+                ]
+              ]
+            }
+          },
+          {
+            "sections": {},
+            "groups": {
+              "filter": [
+                {
+                  "name": [
+                    "getChildren"
+                  ],
+                  "script": [
+                    "return {\n    filter: function( value, resolve, reject ) {\n        var project = value.get();\n        if(project._ch&&project._ch.length>0){\n            var lng = project._ch.length;\n            var kind = project._ch[0].kind;\n            var values = new Array(lng);\n            for(var i=0;i<project._ch.length;i++){\n                values[i]=project._ch[i].id\n            }\n            var query ={\"action\":\"find\",\"kind\":kind,\"field\":\"_id\",\"values\":values};\n            resolve(query);\n        }\n    }\n};"
+                  ]
+                }
+              ],
+              "libs": [
+                [
+                  {}
+                ]
+              ]
+            }
+          },
+          {
+            "sections": {},
+            "groups": {
+              "filter": [
+                {
+                  "name": [
+                    "getPatientChildren"
+                  ],
+                  "script": [
+                    "return {\n    filter: function( value, resolve, reject ) {\n        var patient = value.get();\n        if(patient._ch&&patient._ch.length>0){\n            var query ={\"action\":\"getChildren\",\"kind\":\"patient\",\"_id\":patient._id,\"params\":{\"groupKind\":true}};\n            resolve(query);\n        }\n    }\n};"
+                  ]
+                }
+              ],
+              "libs": [
+                [
+                  {}
+                ]
+              ]
+            }
+          },
+          {
+            "sections": {},
+            "groups": {
+              "filter": [
+                {
+                  "name": [
+                    "getUrineChildren"
+                  ],
+                  "script": [
+                    "return {\n    filter: function( value, resolve, reject ) {\n        var patient = value.get();\n        if(patient._ch&&patient._ch.length>0){\n            var query ={\"action\":\"getChildren\",\"kind\":\"urine\",\"_id\":patient._id};\n            resolve(query);\n        }\n    }\n};"
+                  ]
+                }
+              ],
+              "libs": [
+                [
+                  {}
+                ]
+              ]
+            }
+          },
+          {
+            "sections": {},
+            "groups": {
+              "filter": [
+                {
+                  "name": [
+                    "getFile"
+                  ],
+                  "script": [
+                    "return {\n    filter: function( value, resolve, reject ) {\n        var entry = value.get();\n        var query = null;\n        if(entry._id)\n            query ={\"action\":\"getFile\",\"kind\":\"jcamp\",\"_id\":entry._id};\n        resolve(query);\n    }\n};"
+                  ]
+                }
+              ],
+              "libs": [
+                [
+                  {}
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "groups": {}
+    }
+  ],
+  "actionfiles": [
+    {
+      "sections": {},
+      "groups": {
+        "action": [
+          [
+            {}
+          ]
+        ]
+      }
+    }
+  ],
+  "_local": false,
+  "_saved": 1434141036437,
+  "_time": 1434141036437,
+  "crons": [
+    {}
+  ]
+}

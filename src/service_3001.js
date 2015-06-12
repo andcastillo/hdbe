@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 var localtask = require("./localtask");
-var host = require("./host.json");
+var host = require("./host1.json");
 
 /**
  * Manage the GET requests. Forward a GET to children servers
@@ -101,7 +101,7 @@ var server = app.listen(host.port, function () {
     var host = server.address().address;
     var port = server.address().port;
 
-    localtask.onInit(0);
+    localtask.onInit(1);
 
     console.log('App listening at http://%s:%s', host, port);
 
